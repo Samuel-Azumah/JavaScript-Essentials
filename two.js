@@ -1,6 +1,6 @@
 
 let sammy = document.getElementsByName('Cstyle');
-let azumah = document.getElementById('new');
+let azumah = document.getElementById('modify');
 function set()
 {
     for (let i=0; i<elements.length; i++){
