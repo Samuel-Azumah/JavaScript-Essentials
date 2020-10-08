@@ -1,5 +1,5 @@
 
-let sammy = document.getElementByName('Cstyle');
+let sammy = document.getElementsByName('Cstyle');
 let azumah = document.getElementById('new');
 function mawuli()
 {
