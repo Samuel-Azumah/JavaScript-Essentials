@@ -1,12 +1,12 @@
 
-let elements = document.getElementsByName('Cstyle');
-let div = document.getElementById('new');
+let sammy = document.getElementsByName('Cstyle');
+let azumah = document.getElementById('new');
 function set()
 {
-    for (let index =0; index<elements.length; index++){
-        let Cstyle=elemts[index].getAttribute('id');
-        let CssValue=elements[ index].value;
-        div.style[ Cstyle ]= CssValue;
+    for (let i=0; i<elements.length; i++){
+        let Cstyle=sammy[i].getAttribute('id');
+        let CV=elements[ index].value;
+        div.style[ Cstyle ]= CV;
     }
 }
 document.getElementById('set').addEventListener('click',set);
