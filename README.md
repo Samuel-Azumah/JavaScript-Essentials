@@ -11,4 +11,4 @@
   </select>
   <button id="set">SET</button>
   <br><br>
-  
+  <div id="new" style="height:400px;width:400px; background:light blue"></div>
