@@ -1,12 +1,12 @@
 
-let sammy = document.getElementsByName('Cstyle');
-let azumah = document.getElementById('new');
-function mawuli()
+let elements = document.getElementsByName('Cstyle');
+let div = document.getElementById('new');
+function set()
 {
-    for (let one =0; one<sammy.length; one++){
-        let Cstyle=sammy[one].getAttribute('id');
-        let Cv=sammy[ one ].value;
-        azumah.style[ Cstyle ]= Cv;
+    for (let index =0; index<elements.length; index++){
+        let Cstyle=elemts[index].getAttribute('id');
+        let CssValue=elements[ index].value;
+        div.style[ Cstyle ]= CssValue;
     }
 }
 document.getElementById('set').addEventListener('click',set);
